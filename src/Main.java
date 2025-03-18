@@ -1,5 +1,6 @@
 import java.util .*;
 import java.awt .*;
+//presupunem ceva diferit
 class Atentie extends TimerTask {
     public void run () {
         Toolkit.getDefaultToolkit().beep();

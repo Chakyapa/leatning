@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38f74d31-091e-4a13-b622-04e3c3e07b5e" name="Changes" comment="чтото типа работает и пойдёт" />
+    <list default="true" id="38f74d31-091e-4a13-b622-04e3c3e07b5e" name="Changes" comment="чтото типа работает и пойдёт">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AudioVisualizerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AudioVisualizerApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +82,7 @@
       <workItem from="1726208879331" duration="3000" />
       <workItem from="1726209603722" duration="3740000" />
       <workItem from="1742394115425" duration="8241000" />
-      <workItem from="1743523422154" duration="3587000" />
+      <workItem from="1743523422154" duration="5240000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -105,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743527256639</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="чтото типа работает и пойдёт">
+      <option name="closed" value="true" />
+      <created>1743527450369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743527450369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -5,13 +5,24 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-
+import java.util.concurrent.*;
+class MyThread extends Thread {
+    @Override
+    public void run() {
+// создание потока
+    }
+}
 public class AudioVisualizerApp {
+
+    MyThread thread = new MyThread();//crearea thredului 1
+    MyThread thread1 = new MyThread();//2
+    MyThread thread2 = new MyThread();//3
+    //despre utilizarea thredurilor in cerintele de evaluare nu este spus nimic
     private Clip[] clips = new Clip[3];  // Массив для звуковых клипов
   //  private boolean[] isPlaying = {false, false, false}; // Статус для звуков (включен/выключен)
 
     private Frame frame;  // Окно для отображения графики
-    // Конструктор, где происходит инициализация всего
+    // Конструктор, c инициализацией всего
     public AudioVisualizerApp() {
         loadSounds();
         frame = new Frame("ЭТО ИНТЕРФЕЙС");
@@ -35,7 +46,7 @@ public class AudioVisualizerApp {
 
     }
 
-    // Загружаем один звуковой файл
+    // Загружаем звуковой файл
     private void loadSound(int index, String filename) {
         try {
             File soundFile = new File(filename);
